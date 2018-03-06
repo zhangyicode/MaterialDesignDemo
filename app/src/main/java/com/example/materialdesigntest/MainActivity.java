@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FruitAdapter adapter;
 
-    private void initFruits(){
+    private void initFruits(){ //初始化界面上显示的水果
         fruitList.clear();
         for(int i=0;i<50;i++){
             Random random=new Random();
